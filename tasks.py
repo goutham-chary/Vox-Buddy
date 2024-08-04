@@ -281,8 +281,8 @@ def send_email_via_gmail():
         speak("What should be the body of the email?")
         body = recognize_speech()
 
-        sender_username = "gouthamchary143s@gmail.com"
-        sender_password = "vlmt uipp ywsq umat"
+        sender_username = "YOUR_EMAIL_ID"
+        sender_password = "YOUR_EMAIL_PASSWORD"
         smtp_server = "smtp.gmail.com"
         smtp_port = 465
         
